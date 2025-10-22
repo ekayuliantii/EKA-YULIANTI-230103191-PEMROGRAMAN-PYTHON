@@ -10,7 +10,7 @@ def main():
         return
 
     # Cek apakah ada setoran bernilai 0
-    if setoran1 == 0 or setoran2 == 0 or setoran3 == 0:
+    if setoran1 <= 0 or setoran2 <= 0 or setoran3 <= 0:
         print("Input tidak valid.")
         return
 
@@ -31,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
